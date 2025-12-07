@@ -1,8 +1,8 @@
 Home Assistant MQTT Assignment
 Student Details
 
-    Name: Eniyavan M
-    Register Number: 42110332
+    Name: Giridharan S
+    Register Number: 42110367
 
 Project Overview
 
@@ -10,13 +10,13 @@ This project demonstrates Python to MQTT to Home Assistant integration. Sensor v
 MQTT Details
 
     Broker: Mosquitto (Windows)
-    Topic: home/eniyavan-2025/sensor
+    Topic: home/Giridharan-2025/sensor
 
 Sensors Implemented
 
     Temperature (25°C)
-    Humidity (60%)
-    Light Intensity (300 lux)
+    Humidity (40%)
+    Light Intensity (350 lux)
 
 Files in This Repository
 

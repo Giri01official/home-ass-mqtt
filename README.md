@@ -16,7 +16,7 @@ Sensors Implemented
 
     Temperature (25°C)
     Humidity (40%)
-    Light Intensity (350 lux)
+    Sound (350 )
 
 Files in This Repository
 

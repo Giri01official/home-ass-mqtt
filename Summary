@@ -1,0 +1,27 @@
+HOME ASSISTANT – MQTT ASSIGNMENT REPORT
+
+Name: Giridharan S
+Register Number: 42110367
+
+MQTT Topic Used:
+home/Giridharan-2025/sensor
+
+Description of Additional Sensor:
+A simulated ambient light sensor was added to demonstrate how multiple data points can be transmitted over MQTT. It sends a constant lux value, serving as an example of how Home Assistant can process and display readings from an extra sensor such as light intensity.
+
+Summary of Procedures Completed
+
+Set up Home Assistant OS on VirtualBox
+Home Assistant was deployed in a virtual environment on a Windows system using Oracle VirtualBox.
+
+Installed and configured the Mosquitto MQTT Broker on Windows
+The Mosquitto service was set up as the MQTT broker and prepared to accept messages from external clients.
+
+Developed a Python script to publish sensor readings
+A Python client was created to send temperature, humidity, and the custom light-sensor values to the designated MQTT topic.
+
+Integrated MQTT into Home Assistant
+Home Assistant’s MQTT integration was configured to listen to the published topic, enabling communication between the broker and the dashboard.
+
+Verified sensor updates on the Home Assistant dashboard
+All three sensor values were successfully received and displayed in real time within the Home Assistant interface, confirming correct end-to-end MQTT communication.
